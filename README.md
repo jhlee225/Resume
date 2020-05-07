@@ -13,7 +13,9 @@
 
 ## 보유기술 및 사용도구
 
-HTML CSS JS React Redux
+<img src="./images/HTMLCSSJS.png" style="display:flex; width:20px; height:20px;">
+<img src="./images/React.png" style="display:flex; width:20px; height:20px;">
+<img src="./images/Redux.png" style="display:flex; width:20px; height:20px;">
 
 ## 프로젝트
 
@@ -22,6 +24,7 @@ HTML CSS JS React Redux
 ### `직원 출퇴근 관리 시스템`
 
 React-Redux 를 사용하여 직원 출퇴근 관리 시스템의 관리자 페이지를 만들었습니다.
+
 (https://github.com/90factory/3rd_employee)
 
 ## `Mini-Project`
@@ -29,9 +32,11 @@ React-Redux 를 사용하여 직원 출퇴근 관리 시스템의 관리자 페�
 ### `주차장 정산 시스템`
 
 HTML CSS JS NodeJS(Express) 로 주차장 정산 프로그램을 만들었습니다.
+
 (https://github.com/jhlee225/Parking-Mini-project)
 
 ### `Redux를 사용한 Tic-Tac-Toe`
 
 React-Redux 를 사용하여 Tic-Tac-Toe 게임을 만들었습니다.
+
 (https://github.com/jhlee225/tic-tac-toe-redux)
