@@ -13,9 +13,7 @@
 
 ## 보유기술 및 사용도구
 
-<img src="./images/HTMLCSSJS.png" style="display:flex; width:20px; height:20px;">
-<img src="./images/React.png" style="display:flex; width:20px; height:20px;">
-<img src="./images/Redux.png" style="display:flex; width:20px; height:20px;">
+<img src="./images/tech.jpg">
 
 ## 프로젝트
 
