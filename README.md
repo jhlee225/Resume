@@ -50,8 +50,7 @@
 
 주차비를 계산했을 때 출차를 할수 있게 해주는 시스템입니다.
 
-프로젝트 깃허브 주소는 (https://github.com/jhlee225/Parking-Mini-project) 입니다.
-
+[프로젝트 깃허브] (https://github.com/jhlee225/Parking-Mini-project) 
 #### 개발
 
 - HTML CSS JavaScript JQuery 를 이용하여 프론트 엔드 개발
@@ -66,8 +65,7 @@
 
 React 공식페이지의 자습서에 있던 Tic-Tac-Toe 코드를 수정 및 기능 추가하여 Github-Page로 배포 하였습니다.
 
-프로젝트 깃허브 주소는 (https://github.com/jhlee225/tic-tac-toe-redux) 입니다.
-
+[프로젝트 깃허브 주소] (https://github.com/jhlee225/tic-tac-toe-redux)
 #### 개발
 
 - Class + State 였던 기존 코드를 Hooks + Redux를 적용하여 코드를 수정
@@ -94,7 +92,7 @@ JS의 핵심개념과 작동원리에 대해 이해하기 위해 "인사이드 �
 
 TIL 리포지토리에 내용을 정리하며 공부하고 있습니다.
 
-정리한 내용 (https://github.com/jhlee225/TIL/tree/master/Books/%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+[정리한 내용] (https://github.com/jhlee225/TIL/tree/master/Books/%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
 
 ### `공식 문서`
 
