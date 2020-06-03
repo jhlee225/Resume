@@ -33,6 +33,8 @@
 
 [팀프로젝트 전체 깃허브](https://github.com/90factory/3rd_employee)
 
+[관리자 페이지 깃허브](https://github.com/jhlee225/hello-employee-admin)
+
 #### 개발
 
 - Create-react-app을 사용한 React 웹 앱 개발
@@ -50,7 +52,8 @@
 
 주차비를 계산했을 때 출차를 할수 있게 해주는 시스템입니다.
 
-[프로젝트 깃허브](https://github.com/jhlee225/Parking-Mini-project) 
+[프로젝트 깃허브](https://github.com/jhlee225/Parking-Mini-project)
+
 #### 개발
 
 - HTML CSS JavaScript JQuery 를 이용하여 프론트 엔드 개발
@@ -66,6 +69,7 @@
 React 공식페이지의 자습서에 있던 Tic-Tac-Toe 코드를 수정 및 기능 추가하여 Github-Page로 배포 하였습니다.
 
 [프로젝트 깃허브](https://github.com/jhlee225/tic-tac-toe-redux)
+
 #### 개발
 
 - Class + State 였던 기존 코드를 Hooks + Redux를 적용하여 코드를 수정
