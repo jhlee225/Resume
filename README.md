@@ -38,6 +38,7 @@
 #### 개발
 
 - Create-react-app을 사용한 React 웹 앱 개발
+
 - 백엔드 개발자와의 협업 - Swagger 로 API 문서를 공유
 
 - Redux를 사용하여 Component의 State관리
