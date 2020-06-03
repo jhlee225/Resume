@@ -31,7 +31,7 @@
 
 직원정보의 등록과 관리를 할 수 있으며 직원의 지문을 등록할 수 있습니다.
 
-[팀프로젝트 전체 깃허브](https://github.com/90factory/3rd_employee) 입니다.
+[팀프로젝트 전체 깃허브](https://github.com/90factory/3rd_employee)
 
 #### 개발
 
