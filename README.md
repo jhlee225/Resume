@@ -25,6 +25,14 @@
 
 ### Team-Project
 
+### `90팩토리 온라인 서비스`
+
+2020.08 ~ 2021.05 
+
+https://www.90factory.com
+
+구공팩토리 온라인 서비스를 위한 lms 페이지 제작
+ 
 ### `직원 출퇴근 관리 시스템`
 
 <img src="./images/logo_em.png">
