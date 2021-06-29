@@ -35,7 +35,7 @@
 
 ## 프로젝트
 
-### Business-Project
+>   Business-Project
 
 ### `90팩토리 온라인 서비스`
 
@@ -57,7 +57,7 @@ https://www.90factory.com
 
 - Axios 모듈화 하여 Redux-Saga 를 통한 서버 요청
 
-### Team-Project
+> Team-Project
 
 ### `직원 출퇴근 관리 시스템`
 
@@ -81,7 +81,7 @@ https://www.90factory.com
 
 - Axios 모듈화 하여 Ajax를 통한 서버 요청
 
-### Mini-Project
+> Mini-Project
 
 ### `주차장 정산 시스템`
 
