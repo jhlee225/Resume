@@ -17,22 +17,40 @@
 
 더 좋은 기술을 습득하고 발전시키기 위해 끊임없이 공부하는 개발자가 되겠습니다.
 
+## 경력사항
+
+(주)옵스테크 개발팀 프론트엔드 개발자 2020.08 ~ 2021.05 
+
 ## 보유기술 및 사용도구
 
 <img src="./images/tech.jpg">
 
 ## 프로젝트
 
-### Team-Project
+### Business-Project
 
 ### `90팩토리 온라인 서비스`
 
 2020.08 ~ 2021.05 
 
+구공팩토리 온라인 서비스를 위한 lms 페이지 제작
+
 https://www.90factory.com
 
-구공팩토리 온라인 서비스를 위한 lms 페이지 제작
- 
+#### 개발
+
+- Create-react-app을 사용한 React 웹 앱 개발
+
+- git-flow가 적용된 코드 
+
+- 백엔드 개발자, 디자이너와의 협업
+
+- Redux를 사용하여 Component의 State관리
+
+- Axios 모듈화 하여 Redux-Saga 를 통한 서버 요청
+
+### Team-Project
+
 ### `직원 출퇴근 관리 시스템`
 
 <img src="./images/logo_em.png">
