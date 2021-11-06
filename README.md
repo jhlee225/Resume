@@ -20,6 +20,7 @@
 ## 경력사항
 
 (주)옵스테크 개발팀 프론트엔드 개발자 2020.08 ~ 2021.05 
+(주)소프트마일 SW 엔지니어 2021.08 ~  
 
 ## 보유기술 및 사용도구
 
@@ -48,11 +49,11 @@
 
 구공팩토리 온라인 서비스를 위한 lms 페이지 제작
 
-https://www.90factory.com
+현재 사이트 운영 종료
 
 #### 개발
 
-- Create-react-app을 사용한 React 웹 앱 개발
+- Create-react-app 을 사용한 React 웹 앱 개발
 
 - git-flow가 적용된 코드 
 
@@ -63,6 +64,23 @@ https://www.90factory.com
 - Axios 모듈화 하여 Redux-Saga 를 통한 서버 요청
 
 > Team-Project
+
+### `Forklift Battery Monitoring System`
+
+2021.08 ~ 
+지게차 배터리 모니터링 시스템 풀스택 개발
+
+제작중
+
+#### 개발 
+
+- Create-react-app 을 사용한 React 웹 앱으로 frontend 개발
+
+- Apollo-graphQL 을 통하여 데이터 교환
+
+- AI 서버 통신용 Express 서버 개발
+
+- mongoose.js 통한 mongoDB 사용
 
 ### `직원 출퇴근 관리 시스템`
 
@@ -134,9 +152,13 @@ React 와 Redux는 공식문서를 활용하여 공부하였습니다.
 
 JS의 핵심개념과 작동원리에 대해 이해하기 위해 "인사이드 자바스크립트"를 보면서
 
-TIL 리포지토리에 내용을 정리하며 공부하고 있습니다.
+TIL 리포지토리에 내용을 정리하며 공부하였습니다.
 
 [정리한 내용](https://github.com/jhlee225/TIL/tree/master/Books/%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+
+이후 Opstech 에서 구공팩토리를 진행하면서 프론트엔드 부분 조교 역할을 하며 학생들의 질문을 받으며 
+
+"자바스크립트 딥다이브" "코어 자바스크립트" "모던 자바스크립트 입문" 등 여러가지 자바스크립트 책들을 보게 되었습니다.
 
 ### `NomadCoder`
 
@@ -145,3 +167,11 @@ NomadCoder의 클론코딩 강의를 들으며 웹개발에 입문했습니다.
 HTML CSS 카카오톡 클론 강의 Vanila JS 웹 앱 만들기 강의를 들었고
 
 해당 강의의 모든 챌린지를 통과 하였습니다.
+
+### `React`
+
+공식 문서를 보고 나서 부터는 혼자서 TOY 프로젝트를 만들면서 공부하였습니다. 
+
+회사 프로젝트를 하면서 "React를 다루는 기술" 도서를 참고하며 React-saga 를 사용하기도 하였고,
+
+현재는 Apollo graphQL 을 사용한 프로젝트를 진행하면서 해당 기술과 MongoDB 에 대해서도 학습 해 나가고 있습니다.
