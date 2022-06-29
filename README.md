@@ -8,7 +8,6 @@
 
 - 이재혁
 - E-mail : dlwogur5656@gmail.com
-- Phone : 010-7799-9036
 - GitHub : https://github.com/jhlee225
 
 - 세종대학교 정보통신공학과 졸업
