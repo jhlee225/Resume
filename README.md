@@ -75,144 +75,126 @@ WEB 개발자 이재혁의 이력서 입니다.
 
 ### Business-Project
 
-### `Forklift Battery Monitoring System`
+### `Battery Monitoring System 2`
+
+2025.11 ~ 2026.08
+
+지게차 및 고정형 배터리 관제 시스템 Frontend 고도화
+
+- 기존 배터리 관제 시스템의 UI/UX 전면 개편
+- Next.js · TypeScript 기반으로 Frontend 개발
+- Tailwind CSS와 Radix UI를 활용한 반응형 UI 구현
+- Recharts를 활용한 배터리 데이터 시각화
+- GraphQL / Apollo를 활용한 API 연동
+- 기존 서비스의 주요 기능을 새로운 디자인 및 기술 스택에 맞게 재구현
+
+Frontend - 
+Next.js · TypeScript · React · Radix UI · Tailwind CSS · Recharts · clsx
+
+API - 
+GraphQL · Apollo
+
+### `Battery Monitoring System`
 
 2021.08 ~ 2025.12
 
-지게차 배터리 모니터링 시스템 풀스택 개발
+지게차 및 고정형 배터리 관제 시스템 풀스택 개발
 
-사용자가 등록한 지게차 배터리 상태 및 관제
+- 사용자가 등록한 배터리의 상태 및 측정 데이터를 조회하고 실시간으로 관제할 수 있는 서비스 개발
+- 배터리 측정 데이터를 차트 및 테이블 형태로 시각화하고 기간별 데이터 조회 기능 구현
+- 배터리 목록 및 상태 조회, 관련 문서 출력, AS 신청 현황 조회 기능 개발
+- 관리자 페이지에서 등록된 배터리 및 사용자 정보를 조회·관리할 수 있는 기능 개발
+- 기존 지게차 배터리 관제 시스템을 기반으로 고정형 배터리 관제 시스템을 신규 프로젝트로 개발
+- GraphQL API를 활용한 데이터 조회 및 변경 기능 구현
+- MongoDB 및 Mongoose를 활용한 배터리 및 사용자 데이터 관리
+- Recharts를 활용한 배터리 데이터 시각화
+- XLSX를 활용한 데이터 엑셀 출력 기능 구현
 
-데이터를 받아서 그래프나 테이블로 표현하고
+Frontend - 
+JavaScript · React · React Router · Material UI · Recharts · XLSX
 
-문서 출력 및 
-
-관리자용 페이지에서는 
-
-운영중인 사이트 (http://ai-fbms.com/)
+Backend - 
+Node.js · Express · GraphQL · Apollo · Mongoose
 
 ### `90팩토리 온라인 서비스`
+2020.08 ~ 2021.05
 
-2020.08 ~ 2021.05 
+- 구공팩토리 온라인 서비스를 위한 LMS Frontend 개발
 
-구공팩토리 온라인 서비스를 위한 lms 페이지 제작
+(현재 서비스 운영 종료)
 
-현재 사이트 운영 종료
+Frontend - JavaScript · React · Redux · React Router · Redux-Saga · Axios
 
-#### 개발
-
-- Create-react-app 을 사용한 React 웹 앱 개발
-
-- git-flow가 적용된 코드 
-
-- 백엔드 개발자, 디자이너와의 협업
-
-- Redux를 사용하여 Component의 State관리
-
-- Axios 모듈화 하여 Redux-Saga 를 통한 서버 요청
+- Create React App 기반 React 웹 애플리케이션 개발
+- Redux를 활용한 전역 상태 관리 및 컴포넌트 간 상태 공유
+- Redux-Saga를 활용한 비동기 서버 요청 및 상태 관리
+- Axios 모듈화를 통한 API 요청 공통화
+- React Router를 활용한 페이지 라우팅 구현
+- Git-flow 기반 형상관리 및 코드 리뷰를 통한 협업
+- 백엔드 개발자 및 디자이너와 협업하여 LMS 서비스 화면 및 기능 개발
 
 ### Team-Project
-
-#### 개발 
-
-- Create-react-app 을 사용한 React 웹 앱으로 frontend 개발
-
-- Apollo-graphQL 을 통하여 데이터 교환
-
-- AI 서버 통신용 Express 서버 개발
-
-- mongoose.js 통한 mongoDB 사용
 
 ### `직원 출퇴근 관리 시스템`
 
 <img src="./images/logo_em.png">
 
-직원이 출퇴근을 하고 이를 확인 할 수 있는 직원 출퇴근 시스템의 관리자 페이지를 만들었습니다.
+직원 출퇴근 관리 시스템 관리자 페이지 Frontend 개발
 
-직원정보의 등록과 관리를 할 수 있으며 직원의 지문을 등록할 수 있습니다.
+직원의 출퇴근 정보를 확인하고 직원 및 지문 정보를 관리할 수 있는 관리자 페이지 개발
 
-[팀프로젝트 전체 깃허브](https://github.com/90factory/3rd_employee)
+Frontend - 
+JavaScript · React · Redux · React Router · Axios
 
-[관리자 페이지 깃허브](https://github.com/jhlee225/hello-employee-admin)
-
-#### 개발
-
-- Create-react-app을 사용한 React 웹 앱 개발
-
-- 백엔드 개발자와의 협업 - Swagger 로 API 문서를 공유
-
-- Redux를 사용하여 Component의 State관리
-
-- Axios 모듈화 하여 Ajax를 통한 서버 요청
+- Create React App 기반 React 웹 애플리케이션 개발
+- Redux를 활용한 전역 상태 관리
+- Axios 모듈화를 통한 API 요청 및 서버 데이터 연동
+- Swagger API 문서를 기반으로 백엔드 개발자와 협업
+- 직원 정보 등록 및 관리, 지문 등록 등 관리자 기능 구현
+- GitHub를 활용한 팀 프로젝트 형상관리 및 협업
 
 > Mini-Project
 
 ### `주차장 정산 시스템`
 
-차량 입차시 차량을 DB에 저장하며 시간의 경과에 따라 가격이 형성되고
+주차장 정산 시스템 Full-stack 개발
 
-주차비를 계산했을 때 출차를 할수 있게 해주는 시스템입니다.
+차량 입·출차 및 주차 요금 정산을 관리하는 웹 시스템 개발
 
-[프로젝트 깃허브](https://github.com/jhlee225/Parking-Mini-project)
+Frontend - 
+HTML5 · CSS3 · JavaScript · jQuery
 
-#### 개발
+Backend - 
+Node.js · Express · REST API
 
-- HTML CSS JavaScript JQuery 를 이용하여 프론트 엔드 개발
+Database - 
+MySQL
 
-- express-generator 를 사용하여 서버 개발 및 RESTFul API 개발
-
-- MySQL로 데이터베이스 구축
-
-- 제이쿼리를 사용하여 Ajax로 서버에 요청
+- 차량 입차 시 차량 및 입차 시간을 DB에 저장하고 주차 시간에 따른 요금 계산 기능 구현
+- 주차 요금 정산 완료 후 차량 출차 처리 기능 구현
+- Express 기반 서버 및 RESTful API 개발
+- MySQL을 활용한 차량 및 주차 데이터 관리
+- jQuery와 Ajax를 활용한 API 연동
 
 ### `React Tic-Tac-Toe 프로젝트 확장`
+React 공식 튜토리얼의 Tic-Tac-Toe 프로젝트를 기반으로 
 
-React 공식페이지의 자습서에 있던 Tic-Tac-Toe 코드를 수정 및 기능 추가하여 Github-Page로 배포 하였습니다.
+코드 구조를 개선하고 기능을 확장한 개인 프로젝트
 
-[프로젝트 깃허브](https://github.com/jhlee225/tic-tac-toe-redux)
+Frontend
+React · Redux
 
-#### 개발
+- 기존 Class Component 및 State 기반 코드를 React Hooks와 Redux 기반으로 리팩토링
+- Git Branch 및 Pull Request를 활용하여 기능별 개발 및 코드 병합 과정 경험
+- Jest를 활용한 간단한 Unit Test 코드 작성
+- GitHub Pages를 활용한 프로젝트 배포
 
-- Class + State 였던 기존 코드를 Hooks + Redux를 적용하여 코드를 수정
+## 기술 학습 및 지식 공유
 
-- Branch를 만들어서 기능을 추가하면서 수정된 코드는 PR 을 통해 Master에 Merge하는 Git Flow 연습
+- 공식 문서와 기술 서적을 기반으로 새로운 기술의 동작 원리와 사용 방법을 학습하고, 직접 예제를 구현하며 프로젝트에 적용
 
-- 간단한 Unit Test 할 수 있는 테스트 코드 작성
+- JavaScript의 핵심 개념과 동작 원리를 학습하고 TIL을 통해 학습 내용을 지속적으로 정리
+React, Redux, GraphQL 등의 기술을 공식 문서와 개인 프로젝트를 통해 학습하고 실제 서비스 개발에 적용
 
-## 학습
+- 프론트엔드 개발 관련 교육 과정에서 조교로 활동하며 학습한 내용을 다른 사람에게 설명하고 질문에 답변하는 경험
 
-### `공식 문서`
-
-React 와 Redux는 공식문서를 활용하여 공부하였습니다.
-
-공식문서에 있는 코드를 직접 실행 시켜보면서 함수를 익히고 작동을 파악하여 프로젝트에 적용하였습니다.
-
-### `JavaScript`
-
-결과물을 완성하기 위해 JS의 코드를 가져다 쓰는 것으로 끝내지 않고
-
-JS의 핵심개념과 작동원리에 대해 이해하기 위해 "인사이드 자바스크립트"를 보면서
-
-TIL 리포지토리에 내용을 정리하며 공부하였습니다.
-
-[정리한 내용](https://github.com/jhlee225/TIL/tree/master/Books/%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C_%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
-
-이후 Opstech 에서 구공팩토리를 진행하면서 프론트엔드 부분 조교 역할을 하며 학생들의 질문을 받으며 
-
-"자바스크립트 딥다이브" "코어 자바스크립트" "모던 자바스크립트 입문" 등 여러가지 자바스크립트 책들을 보게 되었습니다.
-
-### `NomadCoder`
-
-NomadCoder의 클론코딩 강의를 들으며 웹개발에 입문했습니다.
-
-HTML CSS 카카오톡 클론 강의 Vanila JS 웹 앱 만들기 강의를 들었고
-
-해당 강의의 모든 챌린지를 통과 하였습니다.
-
-### `React`
-
-공식 문서를 보고 나서 부터는 혼자서 TOY 프로젝트를 만들면서 공부하였습니다. 
-
-회사 프로젝트를 하면서 "React를 다루는 기술" 도서를 참고하며 React-saga 를 사용하기도 하였고,
-
-현재는 Apollo graphQL 을 사용한 프로젝트를 진행하면서 해당 기술과 MongoDB 에 대해서도 학습 해 나가고 있습니다.
