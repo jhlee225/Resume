@@ -23,8 +23,26 @@ WEB 개발자 이재혁의 이력서 입니다.
 
 ## 보유기술스택
 
-> Git 
->> Git-flow 기반 코드 형상관리 경험 보유 및 코드 리뷰를 통한 업무 경험
+> TypeScript
+>> TypeScript의 타입 시스템을 활용한 React 프로젝트 개발 및 Interface, Generic 활용 경험
+
+> JavaScript
+>> JavaScript의 동작 원리와 핵심 개념에 대한 이해 
+
+> React
+>> React Hooks 기반 컴포넌트 개발 및 TanStack Table, Recharts 등을 활용한 서비스 개발 경험
+
+> Next.js
+>> App Router 기반 프로젝트 개발 및 API 연동 경험
+
+> Redux
+>> Redux를 활용한 전역 상태 관리 경험
+
+> GraphQL
+>> GraphQL API 연동 및 Query/Mutation 개발 경험
+
+> Tailwind CSS
+>> Tailwind CSS를 활용한 반응형 UI 구현 경험
 
 > HTML5
 >> HTML5 시맨틱 태그를 활용한 웹 페이지 구조 설계 경험
@@ -32,66 +50,62 @@ WEB 개발자 이재혁의 이력서 입니다.
 > CSS3
 >> 디자인 시안을 기반으로 Flexbox를 활용한 반응형 웹 페이지 구현 경험
 
-> JavaScript
->> JavaScript의 동작 원리와 실행 환경에 대한 이해 
-
-> TypeScript
->> TypeScript의 타입 시스템을 활용한 React 프로젝트 개발 및 Interface, Generic 활용 경험
-
 > Node.js
->> Node.js와 Express 기반 REST API 개발 및 서버 환경 구성 경험
-
-> React
->> React Hooks 기반 컴포넌트 개발 및 TanStack Table, Recharts 등을 활용한 서비스 개발 경험
-
-> GraphQL
->> AWS Amplify 기반 GraphQL API 연동 및 Query/Mutation 개발 경험
-
-> Redux
->> Redux를 활용한 전역 상태 관리 경험
-
-> MySQL
->> CRUD, JOIN 등 기본적인 SQL 작성 및 데이터 모델 활용 경험
-
-> MongoDB
->> MongoDB를 활용한 데이터 조회 및 저장 경험
+>> Node.js와 Express 기반 REST API 개발 경
 
 > Electron
 >> Electron 기반 데스크톱 애플리케이션 개발 경험
 
-> Next.js
->> App Router 기반 프로젝트 개발 및 API 연동 경험
+> MongoDB
+>> MongoDB 및 Mongoose를 활용한 데이터 조회·저장 경험
+
+> MySQL
+>> CRUD, JOIN 등 기본적인 SQL 작성 및 데이터 모델 활용 경험
 
 > Redis
->> Redis를 활용한 데이터 캐싱 및 기본적인 데이터 관리 경험
-
-> Tailwind CSS
->> Tailwind CSS를 활용한 반응형 UI 구현 경험
+>> Redis 기본 개념 이해 및 사용 경험
 
 > Jest
 >> Jest를 활용한 React 컴포넌트 단위 테스트 및 테스트 코드 작성 경험
+
+> Git 
+>> Git-flow 기반 코드 형상관리 경험 보유 및 코드 리뷰를 통한 업무 경험
 
 ## 프로젝트
 
 ### Business-Project
 
-### `Battery Monitoring System 2`
+### `CBCS (Communication Base Station Battery Control Sensor)`
 
-2025.11 ~ 2026.08
+2026.06 ~ 2026.08
 
-지게차 및 고정형 배터리 관제 시스템 Frontend 고도화
+고정형 배터리 관제 시스템(SBMS)용 Electron 기반 데스크톱 애플리케이션 Frontend 개발
 
-- 기존 배터리 관제 시스템의 UI/UX 전면 개편
-- Next.js · TypeScript 기반으로 Frontend 개발
-- Tailwind CSS와 Radix UI를 활용한 반응형 UI 구현
-- Recharts를 활용한 배터리 데이터 시각화
-- GraphQL / Apollo를 활용한 API 연동
-- 기존 서비스의 주요 기능을 새로운 디자인 및 기술 스택에 맞게 재구현
+- Electron + React + TypeScript 기반 데스크톱 애플리케이션 UI 개발
+- Tailwind CSS와 Radix UI를 활용한 UI 컴포넌트 및 화면 구현
+- TanStack Table을 활용한 배터리 및 장비 데이터 테이블 구현
+- React Router를 활용한 화면 라우팅 및 페이지 구성
 
 Frontend - 
-Next.js · TypeScript · React · Radix UI · Tailwind CSS · Recharts · clsx
+Electron · React · TypeScript · Vite · React Router · Tailwind CSS · Radix UI · TanStack Table
 
-API - 
+### `Battery Monitoring System 2`
+
+2025.11 ~ 2026.08 (진행중)
+
+기존 배터리 관제 시스템의 UI/UX를 전면 개편하고 Next.js 및 TypeScript 기반으로 Frontend를 재구축
+
+- Next.js · TypeScript 기반의 배터리 관제 서비스 Frontend 개발
+- AWS Amplify를 활용한 API 연동
+- Tailwind CSS와 Radix UI를 활용한 반응형 UI 및 공통 컴포넌트 구현
+- Recharts를 활용한 배터리 측정 데이터 시각화
+- GraphQL API 연동을 통한 배터리 및 사용자 데이터 조회
+- 기존 서비스의 기능을 새로운 디자인 및 기술 스택에 맞게 재구현
+
+Frontend - 
+Next.js · TypeScript · React · AWS Amplify · Tailwind CSS · Radix UI · Recharts
+
+API / Data - 
 GraphQL · Apollo
 
 ### `Battery Monitoring System`
@@ -100,18 +114,16 @@ GraphQL · Apollo
 
 지게차 및 고정형 배터리 관제 시스템 풀스택 개발
 
-- 사용자가 등록한 배터리의 상태 및 측정 데이터를 조회하고 실시간으로 관제할 수 있는 서비스 개발
+- 사용자가 등록한 배터리의 상태 및 측정 데이터를 조회하고 관제할 수 있는 서비스 개발
 - 배터리 측정 데이터를 차트 및 테이블 형태로 시각화하고 기간별 데이터 조회 기능 구현
-- 배터리 목록 및 상태 조회, 관련 문서 출력, AS 신청 현황 조회 기능 개발
-- 관리자 페이지에서 등록된 배터리 및 사용자 정보를 조회·관리할 수 있는 기능 개발
-- 기존 지게차 배터리 관제 시스템을 기반으로 고정형 배터리 관제 시스템을 신규 프로젝트로 개발
+- 배터리 목록 및 상태 조회, 문서 출력, AS 신청 현황 조회 기능 개발
+- 관리자 페이지에서 배터리 및 사용자 정보 조회·관리 기능 개발
+- 기존 지게차 배터리 관제 시스템을 기반으로 고정형 배터리 관제 시스템 신규 개발
 - GraphQL API를 활용한 데이터 조회 및 변경 기능 구현
-- MongoDB 및 Mongoose를 활용한 배터리 및 사용자 데이터 관리
-- Recharts를 활용한 배터리 데이터 시각화
-- XLSX를 활용한 데이터 엑셀 출력 기능 구현
+- MongoDB 및 Mongoose를 활용한 데이터 조회·저장 기능 개발
 
 Frontend - 
-JavaScript · React · React Router · Material UI · Recharts · XLSX
+JavaScript · React · React Router · Material UI · Recharts · XLSX · Jest
 
 Backend - 
 Node.js · Express · GraphQL · Apollo · Mongoose
@@ -119,7 +131,7 @@ Node.js · Express · GraphQL · Apollo · Mongoose
 ### `90팩토리 온라인 서비스`
 2020.08 ~ 2021.05
 
-- 구공팩토리 온라인 서비스를 위한 LMS Frontend 개발
+구공팩토리 온라인 서비스를 위한 LMS Frontend 개발
 
 (현재 서비스 운영 종료)
 
