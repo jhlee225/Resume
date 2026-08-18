@@ -1,6 +1,6 @@
 # Resume
 
-프론트엔드 개발자 이재혁의 이력서 입니다.
+WEB 개발자 이재혁의 이력서 입니다.
 
 ## 소개
 
@@ -19,28 +19,77 @@
 ## 경력사항
 
 (주)옵스테크 개발팀 프론트엔드 개발자 2020.08 ~ 2021.05 
-(주)소프트마일 SW 엔지니어 2021.08 ~  
+(주)소프트마일 SW 엔지니어 2021.08 ~ 2026.08
 
-## 보유기술 및 사용도구
+## 보유기술스택
 
 > Git 
->> Git-flow 기반 코드 형상관리 경험 보유
-
-> React.js
->> React 기반 웹 앱을 만들 수 있으며 Redux Store 를 통해 상태관리 및 Jest 기반의 유닛 테스트 코드 작성 가능
+>> Git-flow 기반 코드 형상관리 경험 보유 및 코드 리뷰를 통한 업무 경험
 
 > HTML5
->> 기초적인 HTML을 알고 있으며 사용 빈도가 높은 시맨틱 태그들을 활용
+>> HTML5 시맨틱 태그를 활용한 웹 페이지 구조 설계 경험
 
 > CSS3
->> 디자이너가 준 디자인대로 웹사이트를 제작 할 수 있으며 Flex 기반의 반응형 웹 페이지 제작 가능
+>> 디자인 시안을 기반으로 Flexbox를 활용한 반응형 웹 페이지 구현 경험
 
 > JavaScript
->> JavaScript 기초에 대해 이해 하고있으며 작동 원리와 내부 구조에 대해   
+>> JavaScript의 동작 원리와 실행 환경에 대한 이해 
+
+> TypeScript
+>> TypeScript의 타입 시스템을 활용한 React 프로젝트 개발 및 Interface, Generic 활용 경험
+
+> Node.js
+>> Node.js와 Express 기반 REST API 개발 및 서버 환경 구성 경험
+
+> React
+>> React Hooks 기반 컴포넌트 개발 및 TanStack Table, Recharts 등을 활용한 서비스 개발 경험
+
+> GraphQL
+>> AWS Amplify 기반 GraphQL API 연동 및 Query/Mutation 개발 경험
+
+> Redux
+>> Redux를 활용한 전역 상태 관리 경험
+
+> MySQL
+>> CRUD, JOIN 등 기본적인 SQL 작성 및 데이터 모델 활용 경험
+
+> MongoDB
+>> MongoDB를 활용한 데이터 조회 및 저장 경험
+
+> Electron
+>> Electron 기반 데스크톱 애플리케이션 개발 경험
+
+> Next.js
+>> App Router 기반 프로젝트 개발 및 API 연동 경험
+
+> Redis
+>> Redis를 활용한 데이터 캐싱 및 기본적인 데이터 관리 경험
+
+> Tailwind CSS
+>> Tailwind CSS를 활용한 반응형 UI 구현 경험
+
+> Jest
+>> Jest를 활용한 React 컴포넌트 단위 테스트 및 테스트 코드 작성 경험
 
 ## 프로젝트
 
-> Business-Project
+### Business-Project
+
+### `Forklift Battery Monitoring System`
+
+2021.08 ~ 2025.12
+
+지게차 배터리 모니터링 시스템 풀스택 개발
+
+사용자가 등록한 지게차 배터리 상태 및 관제
+
+데이터를 받아서 그래프나 테이블로 표현하고
+
+문서 출력 및 
+
+관리자용 페이지에서는 
+
+운영중인 사이트 (http://ai-fbms.com/)
 
 ### `90팩토리 온라인 서비스`
 
@@ -62,14 +111,7 @@
 
 - Axios 모듈화 하여 Redux-Saga 를 통한 서버 요청
 
-> Team-Project
-
-### `Forklift Battery Monitoring System`
-
-2021.08 ~ 
-지게차 배터리 모니터링 시스템 풀스택 개발
-
-제작중
+### Team-Project
 
 #### 개발 
 
